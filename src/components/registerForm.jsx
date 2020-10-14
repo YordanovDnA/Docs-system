@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { toast } from "react-toastify";
 
 class RegisterForm extends Component {
   state = {};
@@ -57,6 +58,12 @@ class RegisterForm extends Component {
           </div>
           <button
             type="submit"
+            onClick={(e) => {
+              e.preventDefault();
+              toast.error(
+                "This feature is not available in prototype version."
+              );
+            }}
             className="btn btn-outline-info float-right mb-3"
           >
             Register

@@ -1,5 +1,11 @@
 {
   "name": "office-system",
+  "homepage": "http://docs.iliyanyordanov.com",
+  "author": {
+    "name": "Iliyan Yordanov",
+    "email": "iliyanyyordanov@gmail.com"
+  },
+  "description": "This is a prototype of a hospital system for discharging patients.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
